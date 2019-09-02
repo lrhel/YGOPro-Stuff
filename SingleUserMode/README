@@ -2,9 +2,13 @@ How to use
 
 (From the YGOPro Installation folder perspective)
 
+Those Rocks are needed
+https://luarocks.org/modules/dougcurrie/lsqlite3
+https://luarocks.org/modules/hisham/luafilesystem
+
 put SingleUserMode.lua in single/
 put single-user-mode.cdb in expansions/
-put lfs.so
+
 At the start of the Duel, you can choose one of the first 16 Deck.
 The puzzle need to be launched once to load the deck list, then YGOPro need to restart to take the change.
 At the End Phase, you will get asked if you want to shuffle you hand, change deck, or simple continu.
